@@ -9,8 +9,8 @@ namespace Calculator
             try
             {
                 Console.WriteLine("Enter expression for calculate:");
-                string expression = Console.ReadLine();
-                double res = Calculator.Calculate(expression);
+                var expression = Console.ReadLine();
+                var res = Calculator.Calculate(expression);
                 Console.WriteLine("result: " + res);
             }
             catch (Exception ex)
